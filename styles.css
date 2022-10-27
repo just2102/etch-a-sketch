@@ -36,7 +36,7 @@ button {
     flex-shrink: 0;
 }
 
-.square:hover {
+.active {
     background-color: black;
     transition:700ms;
 }

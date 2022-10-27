@@ -5,8 +5,11 @@ function generateSketch() {
             squareContainer.removeChild(squareContainer.firstChild)
         };
     for (let i = 0;i<squareNumber;i++) {
-        square = document.createElement('div');
+        let square = document.createElement('div');
         square.className += "square";
         squareContainer.appendChild(square);
+        square.onmouseover  =   function() {
+            square.classList.add('active')
+        }
     }
 }
