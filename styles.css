@@ -1,13 +1,17 @@
 * {
-   margin:0;
-   background-color: rgb(66, 40, 31);
+    margin:0;
+}
+body {
+    background: rgb(46,44,85);
+    background: linear-gradient(90deg, rgba(46,44,85,1) 0%, rgba(190,71,196,1) 50%, rgba(122,100,134,1) 100%);
 }
 
 header {
     display:flex;
     justify-content: center;
     width:100%;
-    background-color: rgb(101, 70, 48);
+    background: rgb(94,61,105);
+    background: linear-gradient(90deg, rgba(94,61,105,1) 0%, rgba(71,111,196,1) 50%, rgba(130,81,157,1) 95%);
     padding:1vw 1vh;
 }
 button {
@@ -16,6 +20,7 @@ button {
     height:5vh;
     font-weight:bold;
     color:antiquewhite;
+    background: rgb(46,44,85);
 }
 #button_generate:hover {
     transform: scale(1.1);
@@ -27,13 +32,19 @@ button {
     flex-wrap:wrap;
     align-items: center;
     justify-content: center;
-    background-color: rgb(66, 40, 31);
+    background: rgb(94,61,105);
+    background: linear-gradient(90deg, rgba(94,61,105,1) 0%, rgba(54,67,116,1) 50%, rgba(130,81,157,1) 95%);
+    width:100%;
+    height:fit-content;
+    border:solid 5px;
+    border-color:rgb(66, 36, 92);
 }
 .square {
-    background-color: rgb(139, 106, 106);
+    background: rgb(111,95,117);
+    background: linear-gradient(90deg, rgba(111,95,117,1) 0%, rgba(107,58,134,1) 98%, rgba(111,48,107,1) 100%);
     border:solid 3px;
     height:50px;
-    flex-basis:100px;
+    flex-basis:50px;
     flex-grow:0;
     flex-shrink: 0;
 }
